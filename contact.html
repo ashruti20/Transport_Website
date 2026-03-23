@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="packers and movers, movers and packers, packers and movers mumbai, contact packers and movers, Eagle International packers and movers, home shifting, office relocation, packers and movers near me">
+  <title>Contact Us – Eagle International packers and movers</title>
+  <link rel="icon" type="image/png" href="images/logo%20.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/animations.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" crossorigin="">
+</head>
+<body data-page="contact">
+  <div id="navbar-container"></div>
+  <div id="floating-contact-container"></div>
+  <main class="contact-page-wrap">
+    <div class="container">
+      <div class="contact-header text-center mb-5">
+        <h1 class="contact-title mb-3">Contact us</h1>
+        <p class="contact-subtitle mb-0">
+          Get in touch and ask us anything about your move – planning, pricing, insurance, or timelines.
+          Our team will get back to you quickly.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center contact-form-row">
+        <div class="col-lg-3 d-none d-xl-block order-lg-1 contact-illustration-col">
+          <div class="contact-illustration-wrap">
+            <img src="images/contact-us-left.svg" alt="" class="contact-illustration">
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-2 d-flex">
+          <div class="contact-form-card w-100">
+            <form id="contactForm">
+              <div class="row g-3 mb-3">
+                <div class="col-12 col-md-6">
+                  <label class="contact-form-label">Your name *</label>
+                  <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label class="contact-form-label">Email address *</label>
+                  <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
+                </div>
+              </div>
+
+              <div class="row g-3 mb-3 contact-phone-interested-row">
+                <div class="col-12 col-md-6">
+                  <label class="contact-form-label d-block">Phone <span class="text-danger">*</span></label>
+                  <div class="contact-phone-single-box">
+                    <div class="contact-phone-left">
+                      <span class="contact-code-flag" id="contact-code-flag" aria-hidden="true">
+                        <span class="contact-code-flag-inner contact-code-flag-india">
+                          <svg class="contact-india-flag" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect width="24" height="16" fill="#FF9933"/>
+                            <rect y="5.33" width="24" height="5.33" fill="#fff"/>
+                            <rect y="10.67" width="24" height="5.33" fill="#138808"/>
+                            <circle cx="12" cy="8" r="2.2" fill="#000080"/>
+                            <g stroke="#000080" stroke-width="0.3" stroke-linecap="round">
+                              <line x1="12" y1="5.8" x2="12" y2="4.2"/><line x1="12" y1="10.2" x2="12" y2="11.8"/>
+                              <line x1="9.1" y1="6.9" x2="10.1" y2="5.9"/><line x1="14.9" y1="9.1" x2="13.9" y2="10.1"/>
+                              <line x1="9.1" y1="9.1" x2="10.1" y2="10.1"/><line x1="14.9" y1="6.9" x2="13.9" y2="5.9"/>
+                              <line x1="8.2" y1="8" x2="9.6" y2="8"/><line x1="14.4" y1="8" x2="15.8" y2="8"/>
+                              <line x1="10.4" y1="6.2" x2="11.2" y2="6.8"/><line x1="12.8" y1="9.2" x2="13.6" y2="9.8"/>
+                              <line x1="10.4" y1="9.8" x2="11.2" y2="9.2"/><line x1="12.8" y1="6.8" x2="13.6" y2="6.2"/>
+                            </g>
+                          </svg>
+                        </span>
+                        <span class="contact-code-flag-emoji" style="display:none;"></span>
+                      </span>
+                      <select class="contact-code-select" id="contact-code-select" aria-label="Country code">
+                        <option value="+91" data-flag-emoji="&#x1F1EE;&#x1F1F3;" selected>🇮🇳 India  +91</option>
+                        <option value="+1" data-flag-emoji="&#x1F1FA;&#x1F1F8;">🇺🇸 United States  +1</option>
+                        <option value="+44" data-flag-emoji="&#x1F1EC;&#x1F1E7;">🇬🇧 United Kingdom  +44</option>
+                        <option value="+971" data-flag-emoji="&#x1F1E6;&#x1F1EA;">🇦🇪 UAE  +971</option>
+                        <option value="+61" data-flag-emoji="&#x1F1E6;&#x1F1FA;">🇦🇺 Australia  +61</option>
+                        <option value="+81" data-flag-emoji="&#x1F1EF;&#x1F1F5;">🇯🇵 Japan  +81</option>
+                        <option value="+49" data-flag-emoji="&#x1F1E9;&#x1F1EA;">🇩🇪 Germany  +49</option>
+                        <option value="+33" data-flag-emoji="&#x1F1EB;&#x1F1F7;">🇫🇷 France  +33</option>
+                      </select>
+                    </div>
+                    <div class="contact-phone-divider" aria-hidden="true"></div>
+                    <div class="contact-phone-right">
+                      <span class="contact-code-display" id="contact-code-display">+91</span>
+                      <input type="tel" class="contact-phone-input" name="phone" placeholder="99999-99999" maxlength="10" inputmode="numeric" pattern="[0-9]{10}" title="Enter 10-digit number only" required aria-label="Phone number">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label class="contact-form-label">Interested in <span class="text-danger">*</span></label>
+                  <select class="form-select contact-interested-select" name="interested_in" required>
+                    <option value="">Select service</option>
+                    <option>Home Shifting</option>
+                    <option>Office Relocation</option>
+                    <option>Vehicle Transport</option>
+                    <option>Warehouse Storage</option>
+                    <option>Other / Not sure</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="contact-form-label">How can we help? *</label>
+                <textarea class="form-control" name="message" placeholder="Tell us about your move" required></textarea>
+              </div>
+
+              <button type="submit" class="contact-submit-btn w-100 mb-2">
+                Send your message
+              </button>
+              <p class="contact-note mb-0">
+                By clicking, you agree to receive a callback or WhatsApp from our team about your move.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-3 d-none d-xl-block order-lg-3 contact-illustration-col">
+          <div class="contact-illustration-wrap">
+            <img src="images/contact-us-right.png" alt="" class="contact-illustration">
+          </div>
+        </div>
+      </div>
+
+      <!-- Where we serve: map with location pins -->
+      <section class="contact-map-section mt-5 pt-5">
+        <h2 class="contact-map-heading text-center mb-2">Where We Serve <span class="contact-map-flag" aria-hidden="true">&#x1F1EE;&#x1F1F3;</span></h2>
+        <p class="contact-map-subtitle text-center mb-4">Packers &amp; movers across India – select cities and states</p>
+        <div id="contact-map" class="contact-map-container rounded-3 overflow-hidden shadow-sm"></div>
+        <p class="contact-map-legend text-center text-muted small mt-3 mb-0">
+          <i class="bi bi-geo-alt-fill text-primary me-1"></i> Locations where we operate
+        </p>
+      </section>
+    </div>
+  </main>
+  <div id="footer-container"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/sections.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/emailjs-forms.js"></script>
+  <script src="js/contact-map.js"></script>
+  <script>
+    (function () {
+      var sel = document.getElementById("contact-code-select");
+      var flagBox = document.getElementById("contact-code-flag");
+      var codeDisplay = document.getElementById("contact-code-display");
+      if (!sel || !flagBox) return;
+      var indiaInner = flagBox.querySelector(".contact-code-flag-india");
+      var emojiSpan = flagBox.querySelector(".contact-code-flag-emoji");
+      function updateCodeAndFlag() {
+        var opt = sel.options[sel.selectedIndex];
+        var code = opt.value;
+        var flagEmoji = opt.getAttribute("data-flag-emoji");
+        if (codeDisplay) codeDisplay.textContent = code;
+        if (code === "+91") {
+          if (indiaInner) indiaInner.style.display = "";
+          if (emojiSpan) emojiSpan.style.display = "none";
+        } else {
+          if (indiaInner) indiaInner.style.display = "none";
+          if (emojiSpan) {
+            emojiSpan.innerHTML = flagEmoji || "";
+            emojiSpan.style.display = "";
+          }
+        }
+      }
+      sel.addEventListener("change", updateCodeAndFlag);
+    })();
+  </script>
+</body>
+</html>
